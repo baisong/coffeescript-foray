@@ -1,10 +1,10 @@
 (function() {
-  var num, weekday, weekdays, _i, _len;
-  get_weekday(function(num) {
+  var get_weekday, num, weekday, weekdays, _i, _len;
+  get_weekday = function(num) {
     var days;
     days = ['m', 't', 'w', 't', 'f', 's', 's'];
     return days[num];
-  });
+  };
   weekdays = (function() {
     var _results;
     _results = [];
